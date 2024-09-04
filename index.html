@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Header Styles */
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+            background-color: #131a22;
+            color: white;
+            border-bottom: 2px solid #febd69;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #febd69;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 500;
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .search-bar input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-bar button {
+            padding: 6px 10px;
+            background-color: #febd69;
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Banner Styles */
+        .banner {
+            text-align: center;
+            padding: 50px;
+            background-color: #e7e7e7;
+        }
+
+        .banner h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        /* Products Section Styles */
+        .products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+            width: 200px;
+            background-color: white;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #131a22;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">AMAZON</div>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.AipNT3oktt6WTMU8v9IIJwHaHa&pid=Api&P=0&h=180"alt="Amazon Logo">
+       <div class="search-bar">
+
+            <input type="text" placeholder="Search Amazon">
+            <button>Search</button>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Today's Deals</a></li>
+                <li><a href="#">Customer Service</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Sell</a></li>
+                <li><a href="#">Registry</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Banner Section -->
+        <section class="banner">
+            <h1>Welcome to Amazon</h1>
+            <p>Shop the best deals today!</p>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products">
+            <div class="product">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.SQkabtcpLscxwgI2mG-DkwHaGM&pid=Api&P=0&h=180"alt="product 1">
+                <h2>Mens Clothing</h2>
+            </div>
+            <div class="product">
+                <img src="https://serviceapp.sgp1.cdn.digitaloceanspaces.com/public/images/642e4ffd24219dcc9e70ecf6eac67543d7cdabcc9273b.png" alt="Product 2">
+                <h2>Womens Clothing</h2>
+            </div>
+            <div class="product">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.cBH1-_hyrr58FzJfWTVP1gHaKv&pid=Api&P=0&h=180" alt="Product 3">
+                <h2>Kids Clothing</h2>
+            </div>
+            <div class="product">
+                <img src="https://tse4.mm.bing.net/th?id=OIP.CBx0fon8ld3hO56goMDL7AHaFb&pid=Api&P=0&h=180" alt="Product 4">
+                <h2>Footwear</h2>
+            </div>
+            <div class="product">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.jRtGGPK_B6bnNnzVdaOFOgHaH-&pid=Api&P=0&h=180" alt="Product 4">
+                <h2>Accessories</h2>
+            </div>
+
+            
+
+            <!-- Add more products as needed -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Amazon Clone. All rights reserved.</p>
+    </footer>
+</body>
+</html>
